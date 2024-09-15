@@ -4,7 +4,7 @@
 
 Funktionen und Skripte, um [oeffentlicher-dienst.info](https://oeffentlicher-dienst.info/) zu scrapen. Nützlich z.B. zur Stellenplanung im NPO-Kontext, wenn verschiedene Konstellationen durchgeplant werden müssen.
 
-:warn: Bitte verantwortungsbewusst mit den Skripten umgehen und mit Bedacht scrapen. :warn:
+:warning: Bitte verantwortungsbewusst mit den Skripten umgehen und mit Bedacht scrapen. :warning:
 
 Bisher sind nur Funktionen in Python verfügbar. Eine Übersetzung in R ist relativ einfach machbar (Relevante Packages: `rvest`, `stringr`). 
 
@@ -21,7 +21,8 @@ uv sync
 In `scrape-py.qmd` und `scrape-py.py` finden sich Beispiele zur Benutzung.
 
 ```
-python
+uv run scrape-py.py
+```
 
 ## Begriffe
 
